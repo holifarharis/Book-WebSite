@@ -871,11 +871,12 @@ body.dark-theme {
 @media screen and (min-width: 576px) {
   .search__form {
     width: 500px;
+    margin: auto;
   }
 
   .login__form {
     width: 530px;
-    justify-content: center;
+    justify-self: center;
   }
 
   .search__close,
@@ -1100,5 +1101,9 @@ body.dark-theme {
   .home__article,
   .home__img {
     width: 290px;
+  }
+
+  .search__form {
+    margin: auto;
   }
 }
